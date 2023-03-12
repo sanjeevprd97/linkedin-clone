@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font Icons-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Linkedin || Feed</title>
+
+</head>
+
+<body>
+    <!--Header Starts-->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+        </div>
+        <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/SANJEEV.jpeg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+        <!-- ------profile PropDown menu- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/SANJEEV.jpeg">
+                    <div>
+                        <h3>Sanjeev Kumar</h3>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="images/feedback.png">
+                <p>Give Feedbak</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/setting.png">
+                <p>Setting & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/help.png">
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/display.png">
+                <p>Display & Accessiablity</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/logout.png">
+                <p>Logout</p>
+                <span>></span>
+            </a>
+            </div> 
+            
+        </div>    
+    </nav>
+    <!--------------------------------Header Ends------------------------------------------------------>
+    <div class="container">
+
+        <!-- ------------------------------left-sidebar-------------------------------------------------- -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="images/SANJEEV.jpeg">
+                    <h1>Sanjeev Kumar</h1>
+                    <h3>Software Engineer</h3>
+                    <ul>
+                        <li>Your Profile Views<span> 300</span></li>
+                        <li>Your post View<span> 120</span></li>
+                        <li>Your Connections<span> 256</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="images/items.png">My Items</a>
+                    <a href="#"><img src="images/premium.png">Try Premimum</a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="images/recent.png">Web Development</a>
+                <a href="#"><img src="images/recent.png">User Interface</a>
+                <a href="#"><img src="images/recent.png">Learn Online</a>
+                <a href="#"><img src="images/recent.png">code Better</a>
+                <a href="#"><img src="images/recent.png">Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="images/group.png">Web Design Group</a>
+                <a href="#"><img src="images/group.png">HTML & CSS</a>
+                <a href="#"><img src="images/group.png">Python & ML Learning </a>
+                <a href="#"><img src="images/group.png">JavaScript </a>
+                <a href="#"><img src="images/group.png">Java</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="images/hashtag.png">webdevelopment</a>
+                <a href="#"><img src="images/hashtag.png">userinterface</a>
+                <a href="#"><img src="images/hashtag.png">Learn Coding</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+        <!-- -----main-content ---------------->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="images/sanjeev.jpeg">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="images/photo.png">Photos</li>
+                    <li><img src="images/video.png">Videos</li>
+                    <li><img src="images/event.png">event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by:<span>top<img src="images/down-arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h1>Monica </h1>
+                        <small> Founder and CEO at Bindass || Magoprop</small>
+                        <small>2 Hours ago </small>
+                    </div>
+
+                </div>
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-users">Sanju Prd and 34 Others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 20 share</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="images/user-1.png" class="post-activity-user-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</pan>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ------right-sidebar--------------->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="images/more.png" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1h ago &middot; 10,934 readers</span>
+
+                <a href="#">Blacked lives Matters</a>
+                <span>1d ago &middot; 8,934 readers</span>
+
+                <a href="#">Newton School </a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">indian Movies in Oscar</a>
+                <span>12h ago &middot; 89,934 readers</span>
+                <a href="#" class="read-more-link">Read More</a>
+
+            </div>
+
+
+
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessiablity</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="images/logo.png">
+                    <p>Linkedin &#169; 2023 All right reserved</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+         
+        function toggleMenu(){
+            profileMenu.classList("open-menu");
+        }
+    </script>
+</body>
+
+</html>
