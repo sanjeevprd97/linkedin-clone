@@ -8,4 +8,4 @@ Features :
 * The user can add a profile picture during the signup process by providing a picture URL
 * Tech Stack used: JavaScript, Font-Awesome, Html and Css
 
-Description: Clean and Beautiful design with a focus on user experience, built using React Js, Firebase , Font awesome 
+Description: Clean and Beautiful design with a focus on user experience. 
